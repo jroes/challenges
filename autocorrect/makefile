@@ -1,4 +1,7 @@
-START=node hunter.js
+START=./jroes
+
+setup-jroes:
+	brew install chicken
 
 comparison:
 	cd fixtures && node messtext.js
