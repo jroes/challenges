@@ -2,6 +2,7 @@ START=./jroes
 
 setup-jroes:
 	brew install chicken
+	csc -optimize-level 5 jroes.scm
 
 comparison:
 	cd fixtures && node messtext.js
